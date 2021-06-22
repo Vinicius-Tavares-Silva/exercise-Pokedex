@@ -11,7 +11,7 @@ class Pokemon extends React.Component {
     <h4 class="card-title">{pokemonInfo.name}</h4>
     <p class="card-text">{pokemonInfo.type}</p>
     <p class="card-text">Average weight: {pokemonInfo.averageWeight.value} {pokemonInfo.averageWeight.measurementUnit}</p>
-    <a target="_blank" href={pokemonInfo.moreInfo} class="btn btn-primary">More Info!</a>
+    <a target="_blank" href={pokemonInfo.moreInfo} class="btn btn-outline-info">More Info!</a>
   </div>
 </div>
   );
